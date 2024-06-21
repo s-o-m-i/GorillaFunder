@@ -1,0 +1,30 @@
+.backers-count {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #656969;
+}
+
+.film-backers {
+    font-size: 14px;
+    line-height: 18px;
+    color: #656969;
+}
+
+.project-we-love {
+    background: #e98429;
+    color: white;
+    padding: 6px 6px;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.project-animation {
+    background: #000;
+    color: white;
+    padding: 6px 6px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

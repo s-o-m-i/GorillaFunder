@@ -1,0 +1,104 @@
+
+
+.films-grid-img {
+	border-radius: 10px 10px 0px 0px;
+}
+
+.films-grid-progress {
+	border-radius: 0px 0px 10px 10px;
+    max-width: 400px;
+	height: 8px !important;
+}
+
+.films-grid-creator-img {
+	width: 40px;
+	border-radius: 50%;
+	border: 1px solid #E0E0E0;
+}
+
+.films-grid-creator {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #656969
+}
+
+.films-grid-heading {
+	/* Font & Text */
+	font-family: Inter, sans-serif !important;
+	font-size: 20px !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-weight: 500 !important;
+	letter-spacing: normal !important;
+	line-height: 24px !important;
+	text-align: start !important;
+	text-indent: 0px !important;
+	text-transform: none !important;
+	vertical-align: baseline !important;
+	white-space: normal !important;
+	word-spacing: 0px !important;
+}
+
+.films-grid-bookmark {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+
+
+/* Add hover effect and increased height */
+.films-grid-card {
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .films-grid-card:hover {
+    z-index: 1;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto; /* Adjust height as needed */
+    transform: scale(1.05); /* Zoom effect */
+    border-radius: 10px;
+  }
+  
+  /* Description */
+  .films-grid-description {
+    display: none;
+    width: 390px;
+    margin: 10px 0px;
+  }
+  
+  /* Show description on hover */
+  .films-grid-card:hover .films-grid-description {
+    display: block;
+  }
+  
+  /* Show description on hover */
+  .films-grid-card:hover .films-grid-tag {
+    display: block;
+  }
+  
+  /* Tags */
+  .films-grid-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .films-grid-tag {
+    background-color: white;
+    display: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 2px 8px;
+  }
+  
+.film-view-details {
+    margin-left: 45px;
+    font-size: 14px;
+    margin-top: 5px;
+    text-decoration: underline;
+    color: #e98429;
+}
